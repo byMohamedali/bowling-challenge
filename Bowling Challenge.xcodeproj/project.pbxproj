@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665CF2532312674D0037684D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CF2522312674D0037684D /* AppDelegate.swift */; };
+		665CF2552312674D0037684D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CF2542312674D0037684D /* ViewController.swift */; };
+		665CF2582312674D0037684D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665CF2562312674D0037684D /* Main.storyboard */; };
+		665CF25A231267500037684D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665CF259231267500037684D /* Assets.xcassets */; };
+		665CF25D231267500037684D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665CF25B231267500037684D /* LaunchScreen.storyboard */; };
+		665CF268231267510037684D /* Bowling_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CF267231267510037684D /* Bowling_ChallengeTests.swift */; };
+		665CF273231267C10037684D /* BowlingScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CF272231267C10037684D /* BowlingScoreManager.swift */; };
+		665CF2752312764D0037684D /* Frame_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CF2742312764D0037684D /* Frame_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		665CF264231267510037684D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665CF2472312674D0037684D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665CF24E2312674D0037684D;
+			remoteInfo = "Bowling Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		665CF24F2312674D0037684D /* Bowling Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bowling Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665CF2522312674D0037684D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665CF2542312674D0037684D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		665CF2572312674D0037684D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665CF259231267500037684D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665CF25C231267500037684D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		665CF25E231267500037684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665CF263231267510037684D /* Bowling ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bowling ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665CF267231267510037684D /* Bowling_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bowling_ChallengeTests.swift; sourceTree = "<group>"; };
+		665CF269231267510037684D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665CF272231267C10037684D /* BowlingScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingScoreManager.swift; sourceTree = "<group>"; };
+		665CF2742312764D0037684D /* Frame_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665CF24C2312674D0037684D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665CF260231267510037684D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665CF2462312674D0037684D = {
+			isa = PBXGroup;
+			children = (
+				665CF2512312674D0037684D /* Bowling Challenge */,
+				665CF266231267510037684D /* Bowling ChallengeTests */,
+				665CF2502312674D0037684D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665CF2502312674D0037684D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665CF24F2312674D0037684D /* Bowling Challenge.app */,
+				665CF263231267510037684D /* Bowling ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665CF2512312674D0037684D /* Bowling Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				665CF2522312674D0037684D /* AppDelegate.swift */,
+				665CF2542312674D0037684D /* ViewController.swift */,
+				665CF2562312674D0037684D /* Main.storyboard */,
+				665CF259231267500037684D /* Assets.xcassets */,
+				665CF25B231267500037684D /* LaunchScreen.storyboard */,
+				665CF25E231267500037684D /* Info.plist */,
+				665CF272231267C10037684D /* BowlingScoreManager.swift */,
+			);
+			path = "Bowling Challenge";
+			sourceTree = "<group>";
+		};
+		665CF266231267510037684D /* Bowling ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				665CF267231267510037684D /* Bowling_ChallengeTests.swift */,
+				665CF269231267510037684D /* Info.plist */,
+				665CF2742312764D0037684D /* Frame_Tests.swift */,
+			);
+			path = "Bowling ChallengeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665CF24E2312674D0037684D /* Bowling Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665CF26C231267510037684D /* Build configuration list for PBXNativeTarget "Bowling Challenge" */;
+			buildPhases = (
+				665CF24B2312674D0037684D /* Sources */,
+				665CF24C2312674D0037684D /* Frameworks */,
+				665CF24D2312674D0037684D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bowling Challenge";
+			productName = "Bowling Challenge";
+			productReference = 665CF24F2312674D0037684D /* Bowling Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		665CF262231267510037684D /* Bowling ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665CF26F231267510037684D /* Build configuration list for PBXNativeTarget "Bowling ChallengeTests" */;
+			buildPhases = (
+				665CF25F231267510037684D /* Sources */,
+				665CF260231267510037684D /* Frameworks */,
+				665CF261231267510037684D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665CF265231267510037684D /* PBXTargetDependency */,
+			);
+			name = "Bowling ChallengeTests";
+			productName = "Bowling ChallengeTests";
+			productReference = 665CF263231267510037684D /* Bowling ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665CF2472312674D0037684D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Wedev;
+				TargetAttributes = {
+					665CF24E2312674D0037684D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					665CF262231267510037684D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 665CF24E2312674D0037684D;
+					};
+				};
+			};
+			buildConfigurationList = 665CF24A2312674D0037684D /* Build configuration list for PBXProject "Bowling Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665CF2462312674D0037684D;
+			productRefGroup = 665CF2502312674D0037684D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665CF24E2312674D0037684D /* Bowling Challenge */,
+				665CF262231267510037684D /* Bowling ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665CF24D2312674D0037684D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665CF25D231267500037684D /* LaunchScreen.storyboard in Resources */,
+				665CF25A231267500037684D /* Assets.xcassets in Resources */,
+				665CF2582312674D0037684D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665CF261231267510037684D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665CF24B2312674D0037684D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665CF273231267C10037684D /* BowlingScoreManager.swift in Sources */,
+				665CF2552312674D0037684D /* ViewController.swift in Sources */,
+				665CF2532312674D0037684D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665CF25F231267510037684D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665CF268231267510037684D /* Bowling_ChallengeTests.swift in Sources */,
+				665CF2752312764D0037684D /* Frame_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		665CF265231267510037684D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665CF24E2312674D0037684D /* Bowling Challenge */;
+			targetProxy = 665CF264231267510037684D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		665CF2562312674D0037684D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665CF2572312674D0037684D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665CF25B231267500037684D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665CF25C231267500037684D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665CF26A231267510037684D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665CF26B231267510037684D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665CF26D231267510037684D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7FJ83D67F;
+				INFOPLIST_FILE = "Bowling Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedev.Bowling-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665CF26E231267510037684D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7FJ83D67F;
+				INFOPLIST_FILE = "Bowling Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedev.Bowling-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		665CF270231267510037684D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7FJ83D67F;
+				INFOPLIST_FILE = "Bowling ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedev.Bowling-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bowling Challenge.app/Bowling Challenge";
+			};
+			name = Debug;
+		};
+		665CF271231267510037684D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7FJ83D67F;
+				INFOPLIST_FILE = "Bowling ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wedev.Bowling-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bowling Challenge.app/Bowling Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665CF24A2312674D0037684D /* Build configuration list for PBXProject "Bowling Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665CF26A231267510037684D /* Debug */,
+				665CF26B231267510037684D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665CF26C231267510037684D /* Build configuration list for PBXNativeTarget "Bowling Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665CF26D231267510037684D /* Debug */,
+				665CF26E231267510037684D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665CF26F231267510037684D /* Build configuration list for PBXNativeTarget "Bowling ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665CF270231267510037684D /* Debug */,
+				665CF271231267510037684D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665CF2472312674D0037684D /* Project object */;
+}
